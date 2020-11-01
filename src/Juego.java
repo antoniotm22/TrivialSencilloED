@@ -147,6 +147,38 @@ public class Juego {
 	
 		
 		
+		//Quinta pregunta
+		
+		String pregunta5 = JOptionPane.showInputDialog("¿Qué país, grande y frío, contiene más de la mitad de los lagos naturales de todo el mundo?");
+		String respuesta5 = "ronda";
+		if(pregunta5.equals(respuesta5)) {
+			numAciertos ++;
+			System.out.println("\r\n" + 
+					"     ___       ______  __   _______ .______     .___________.  ______   \r\n" + 
+					"    /   \\     /      ||  | |   ____||   _  \\    |           | /  __  \\  \r\n" + 
+					"   /  ^  \\   |  ,----'|  | |  |__   |  |_)  |   `---|  |----`|  |  |  | \r\n" + 
+					"  /  /_\\  \\  |  |     |  | |   __|  |      /        |  |     |  |  |  | \r\n" + 
+					" /  _____  \\ |  `----.|  | |  |____ |  |\\  \\----.   |  |     |  `--'  | \r\n" + 
+					"/__/     \\__\\ \\______||__| |_______|| _| `._____|   |__|      \\______/  \r\n" + 
+					"                                                                        \r\n" + 
+					"");
+			
+		}else {
+			System.out.println("\r\n" + 
+					" _______    ___       __       __        ______   \r\n" + 
+					"|   ____|  /   \\     |  |     |  |      /  __  \\  \r\n" + 
+					"|  |__    /  ^  \\    |  |     |  |     |  |  |  | \r\n" + 
+					"|   __|  /  /_\\  \\   |  |     |  |     |  |  |  | \r\n" + 
+					"|  |    /  _____  \\  |  `----.|  `----.|  `--'  | \r\n" + 
+					"|__|   /__/     \\__\\ |_______||_______| \\______/  \r\n" + 
+					"                                                  \r\n" + 
+					"");
+			
+		}
+		
+		System.out.println("Tú número de aciertos es: " + numAciertos + " , mucho ánimo");
+	
+		
 	}
 
 	
