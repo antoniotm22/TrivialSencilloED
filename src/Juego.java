@@ -81,6 +81,42 @@ public class Juego {
 		}
 		
 		System.out.println("Tú número de aciertos es: " + numAciertos + " , mucho ánimo");
+	
+		
+		//Tercera pregunta
+		
+		String pregunta3 = JOptionPane.showInputDialog("¿Con qué otro nombre histórico se conoce a la República Democrática del Congo?");
+		String respuesta3 = "zaire";
+		if(pregunta2.equals(respuesta2)) {
+			numAciertos ++;
+			System.out.println("\r\n" + 
+					"     ___       ______  __   _______ .______     .___________.  ______   \r\n" + 
+					"    /   \\     /      ||  | |   ____||   _  \\    |           | /  __  \\  \r\n" + 
+					"   /  ^  \\   |  ,----'|  | |  |__   |  |_)  |   `---|  |----`|  |  |  | \r\n" + 
+					"  /  /_\\  \\  |  |     |  | |   __|  |      /        |  |     |  |  |  | \r\n" + 
+					" /  _____  \\ |  `----.|  | |  |____ |  |\\  \\----.   |  |     |  `--'  | \r\n" + 
+					"/__/     \\__\\ \\______||__| |_______|| _| `._____|   |__|      \\______/  \r\n" + 
+					"                                                                        \r\n" + 
+					"");
+			
+		}else {
+			System.out.println("\r\n" + 
+					" _______    ___       __       __        ______   \r\n" + 
+					"|   ____|  /   \\     |  |     |  |      /  __  \\  \r\n" + 
+					"|  |__    /  ^  \\    |  |     |  |     |  |  |  | \r\n" + 
+					"|   __|  /  /_\\  \\   |  |     |  |     |  |  |  | \r\n" + 
+					"|  |    /  _____  \\  |  `----.|  `----.|  `--'  | \r\n" + 
+					"|__|   /__/     \\__\\ |_______||_______| \\______/  \r\n" + 
+					"                                                  \r\n" + 
+					"");
+			
+		}
+		
+		System.out.println("Tú número de aciertos es: " + numAciertos + " , mucho ánimo");
+	
+		//Cuarta pregunta
+		
+		
 		
 	}
 
