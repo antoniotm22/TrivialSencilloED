@@ -19,6 +19,8 @@ public class Juego {
 		
 		System.out.println("Introduce tu respuesta en letras minusculas");
 		
+		//Primera pregunta
+		
 		String pregunta1 = JOptionPane.showInputDialog("¿Qué estado de EE.UU tiene el litoral más largo?");
 		String respuesta1 = "alaska";
 		if(pregunta1.equals(respuesta1)) {
@@ -46,8 +48,46 @@ public class Juego {
 			
 		}
 		
-		System.out.println("Tú número de aciertos es: " + numAciertos + " ánimo"
-				);
+		System.out.println("Tú número de aciertos es: " + numAciertos + " , mucho ánimo");
+				
+		
+		//Segunda pregunta
+		
+		String pregunta2 = JOptionPane.showInputDialog("¿Qué ciudad malagueña tiene un 'tajo' de 70 metros que la parte en dos mitades?");
+		String respuesta2 = "ronda";
+		if(pregunta2.equals(respuesta2)) {
+			numAciertos ++;
+			System.out.println("\r\n" + 
+					"     ___       ______  __   _______ .______     .___________.  ______   \r\n" + 
+					"    /   \\     /      ||  | |   ____||   _  \\    |           | /  __  \\  \r\n" + 
+					"   /  ^  \\   |  ,----'|  | |  |__   |  |_)  |   `---|  |----`|  |  |  | \r\n" + 
+					"  /  /_\\  \\  |  |     |  | |   __|  |      /        |  |     |  |  |  | \r\n" + 
+					" /  _____  \\ |  `----.|  | |  |____ |  |\\  \\----.   |  |     |  `--'  | \r\n" + 
+					"/__/     \\__\\ \\______||__| |_______|| _| `._____|   |__|      \\______/  \r\n" + 
+					"                                                                        \r\n" + 
+					"");
+			
+		}else {
+			System.out.println("\r\n" + 
+					" _______    ___       __       __        ______   \r\n" + 
+					"|   ____|  /   \\     |  |     |  |      /  __  \\  \r\n" + 
+					"|  |__    /  ^  \\    |  |     |  |     |  |  |  | \r\n" + 
+					"|   __|  /  /_\\  \\   |  |     |  |     |  |  |  | \r\n" + 
+					"|  |    /  _____  \\  |  `----.|  `----.|  `--'  | \r\n" + 
+					"|__|   /__/     \\__\\ |_______||_______| \\______/  \r\n" + 
+					"                                                  \r\n" + 
+					"");
+			
+		}
+		
+		System.out.println("Tú número de aciertos es: " + numAciertos + " , mucho ánimo");
+		
 	}
 
+	
+	
+	
+	
+	
+	
 }
