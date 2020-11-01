@@ -305,16 +305,38 @@ public class Juego {
 		
 		System.out.println("Tú número de aciertos es: " + numAciertos + " , mucho ánimo");
 		
+		//Décima pregunta
 		
+		String pregunta10 = JOptionPane.showInputDialog("¿Qué pais africano obtuvo la independencia de Sudán en 2011?");
+		String respuesta10 = "sudan del sur";
+		if(pregunta10.equals(respuesta10)) {
+			numAciertos ++;
+			System.out.println("\r\n" + 
+					"     ___       ______  __   _______ .______     .___________.  ______   \r\n" + 
+					"    /   \\     /      ||  | |   ____||   _  \\    |           | /  __  \\  \r\n" + 
+					"   /  ^  \\   |  ,----'|  | |  |__   |  |_)  |   `---|  |----`|  |  |  | \r\n" + 
+					"  /  /_\\  \\  |  |     |  | |   __|  |      /        |  |     |  |  |  | \r\n" + 
+					" /  _____  \\ |  `----.|  | |  |____ |  |\\  \\----.   |  |     |  `--'  | \r\n" + 
+					"/__/     \\__\\ \\______||__| |_______|| _| `._____|   |__|      \\______/  \r\n" + 
+					"                                                                        \r\n" + 
+					"");
+			
+		}else {
+			System.out.println("\r\n" + 
+					" _______    ___       __       __        ______   \r\n" + 
+					"|   ____|  /   \\     |  |     |  |      /  __  \\  \r\n" + 
+					"|  |__    /  ^  \\    |  |     |  |     |  |  |  | \r\n" + 
+					"|   __|  /  /_\\  \\   |  |     |  |     |  |  |  | \r\n" + 
+					"|  |    /  _____  \\  |  `----.|  `----.|  `--'  | \r\n" + 
+					"|__|   /__/     \\__\\ |_______||_______| \\______/  \r\n" + 
+					"                                                  \r\n" + 
+					"");
+			
+		}
+		
+		System.out.println("Tú número de aciertos es: " + numAciertos + " , mucho ánimo");
 		
 	}
-
-	
-	
-	
-	
-	
-	
 	
 	
 }
