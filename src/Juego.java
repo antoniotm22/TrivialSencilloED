@@ -87,7 +87,7 @@ public class Juego {
 		
 		String pregunta3 = JOptionPane.showInputDialog("¿Con qué otro nombre histórico se conoce a la República Democrática del Congo?");
 		String respuesta3 = "zaire";
-		if(pregunta2.equals(respuesta2)) {
+		if(pregunta3.equals(respuesta3)) {
 			numAciertos ++;
 			System.out.println("\r\n" + 
 					"     ___       ______  __   _______ .______     .___________.  ______   \r\n" + 
@@ -116,6 +116,35 @@ public class Juego {
 	
 		//Cuarta pregunta
 		
+		String pregunta4 = JOptionPane.showInputDialog("¿En qué ciudad se firmó la declaración de Independencia de EE.UU?");
+		String respuesta4 = "philadelphia";
+		if(pregunta4.equals(respuesta4)) {
+			numAciertos ++;
+			System.out.println("\r\n" + 
+					"     ___       ______  __   _______ .______     .___________.  ______   \r\n" + 
+					"    /   \\     /      ||  | |   ____||   _  \\    |           | /  __  \\  \r\n" + 
+					"   /  ^  \\   |  ,----'|  | |  |__   |  |_)  |   `---|  |----`|  |  |  | \r\n" + 
+					"  /  /_\\  \\  |  |     |  | |   __|  |      /        |  |     |  |  |  | \r\n" + 
+					" /  _____  \\ |  `----.|  | |  |____ |  |\\  \\----.   |  |     |  `--'  | \r\n" + 
+					"/__/     \\__\\ \\______||__| |_______|| _| `._____|   |__|      \\______/  \r\n" + 
+					"                                                                        \r\n" + 
+					"");
+			
+		}else {
+			System.out.println("\r\n" + 
+					" _______    ___       __       __        ______   \r\n" + 
+					"|   ____|  /   \\     |  |     |  |      /  __  \\  \r\n" + 
+					"|  |__    /  ^  \\    |  |     |  |     |  |  |  | \r\n" + 
+					"|   __|  /  /_\\  \\   |  |     |  |     |  |  |  | \r\n" + 
+					"|  |    /  _____  \\  |  `----.|  `----.|  `--'  | \r\n" + 
+					"|__|   /__/     \\__\\ |_______||_______| \\______/  \r\n" + 
+					"                                                  \r\n" + 
+					"");
+			
+		}
+		
+		System.out.println("Tú número de aciertos es: " + numAciertos + " , mucho ánimo");
+	
 		
 		
 	}
