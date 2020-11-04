@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class Juego {
 
 	public static void main(String[] args) {
-		//He modificADO esta linea para comprobar el gitignore
+		//He modificADO esta linea para comprobar el gitignore 2.0
 	
 		int numAciertos = 0;
 		
